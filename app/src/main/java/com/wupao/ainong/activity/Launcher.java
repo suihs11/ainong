@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.GridView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.wupao.ainong.R;
 import com.wupao.ainong.adapter.LauncherPagerAdapter;
@@ -22,6 +23,7 @@ public class Launcher extends Activity {
     private ViewPager mPager;
     private LinearLayout llPoints;
     private View red_point;
+    private TextView textView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
